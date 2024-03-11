@@ -80,13 +80,13 @@
 项目的简介
 ```
 #### 2.2 最新文档
-[最新开发文档](https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZKjbx9GioQBDGanWKMEvZBY)
+[最新开发文档](https://alidocs.dingtalk.com/i/nodes/xxxxx)
 
-[最新项目文档](https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBe5wjopcgPAMGPjW1DK0g6l?utm_scene=team_space)
+[最新项目文档](https://alidocs.dingtalk.com/i/nodes/xxxx?utm_scene=team_space)
 
-[接口文档](https://app.apifox.com/project/3421803) (贡献者: <a href="https://git.zx-tech.net/pengfeng">彭峰</a> )
+[接口文档](https://app.apifox.com/project/xxxxxx) (贡献者: <a href="https://github.com/gwsee/go-app-field">gwsee</a> )
 
-[项目地址](https://git.zx-tech.net/infra/adi-go-infra)
+[项目地址](https://github.com/gwsee/go-app-field)
 #### 2.3 产品历史
 
 [v1.0.000](https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBe5wjopcgPAMGPjW1DK0g6l?utm_scene=team_space)
