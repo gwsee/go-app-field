@@ -1,0 +1,53 @@
+## 配置本系统的信息
+app:
+  name: go-app
+  ##是对应应用系统的id
+  id: 系统的ip
+  port: :8080
+  host:
+  version:
+  pprof: :19849
+  auth: data
+  ## 1不记录 2 error 3 warn 4 info
+  log_level: 4
+## 配置环境变量
+env:
+  env : DEV
+  ## 时区不能随便改，这个根据时间来分表处理数据的时候很重要
+  tz : Asia/Shanghai
+## 配置其他系统的域名和验证auth
+other:
+  third_auth:
+    rpc: third-auth-backend
+    rpc_port: 50051
+  ip2location:
+    rpc: ip2location-backend
+    rpc_port: 50051
+  # rpc_port: 50051
+  ##模型中心获取映射关系
+  yongyou:
+    host: https://c4.yonyoucloud.com
+    other:
+      appKey: 用友key
+      appSecret: 用友secret
+  kafka:
+    id: 账户
+    auth: 密码
+    other:
+      region: us-east-1
+      topic_ue: user_event #     ■ 从kafka订阅user_event
+      brokers: brokers1;brokers2;brokers3
+##配置数据库信息 --示例
+postgres:
+  user : postgres
+  password : postgres
+  host : 127.0.0.1
+  port : 5432
+  dbname : go_app
+other_db:
+  redis:
+    user :
+    password :
+    host : 127.0.0.1
+    port : 6379
+    dbname : 0

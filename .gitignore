@@ -1,0 +1,10 @@
+.DS_Store
+data
+DEVDOCS.md
+.idea
+/log
+*.exe
+exporter_dev
+exporter
+/session
+.vscode
